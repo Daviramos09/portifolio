@@ -73,10 +73,18 @@ section.posts{
  /*====================
 works
 ====================== */
-section.works ul li img{
-    width: 90%;
-    max-width: 391px;
-    padding: 8px 16px 8px 16px;
+section.works{
+    padding: 35vw 3vw 5vw 3vw;
+}
+section.works h2 {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+section.works ul li h3 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    margin : 18px 0 10px 0
 }
 section.works li p span {
     background-color: #142850;
@@ -85,6 +93,23 @@ section.works li p span {
     padding: 3px 6px 3px 6px;
 }
 section.works ul li p.info {
-    color: lightgray;
+    color: #8695a4;
 }
-
+section.works ul li p {
+    margin: 5px 0px 5px 0px;
+    line-height: 1.5rem;
+}
+/*====================
+footer
+====================== */
+footer {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+footer nav a {
+    color: #212430;
+    font-size: 2rem;
+}
+footer nav {
+    margin: 10px 0 10px 0;
+}
